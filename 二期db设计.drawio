@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-04T04:26:20.576Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="_9na-xynBWX-gxspi--R" version="15.8.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-04T04:27:49.216Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="QwauUM5XfbrCtnNta9FX" version="15.8.9" type="github" pages="2">
   <diagram id="C-xvJUPkEJIQUC7n7sxM" name="表结构">
     <mxGraphModel dx="1036" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -204,15 +204,15 @@
         <mxCell id="189aZvcjr3OXFhhUsF3z-49" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="189aZvcjr3OXFhhUsF3z-7" source="189aZvcjr3OXFhhUsF3z-36" target="189aZvcjr3OXFhhUsF3z-47">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="183" y="950" />
+              <mxPoint x="183" y="940" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="189aZvcjr3OXFhhUsF3z-36" value="发送验证码" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="189aZvcjr3OXFhhUsF3z-7">
           <mxGeometry x="173" y="830" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="189aZvcjr3OXFhhUsF3z-47" value="校验输入内容，获得校验结果" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="189aZvcjr3OXFhhUsF3z-7">
-          <mxGeometry x="13" y="920" width="120" height="60" as="geometry" />
+        <mxCell id="189aZvcjr3OXFhhUsF3z-47" value="校验输入内容，&lt;br&gt;获得校验结果&lt;br&gt;通过&lt;br&gt;密码错误&lt;br&gt;不授权" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="189aZvcjr3OXFhhUsF3z-7">
+          <mxGeometry x="13" y="900" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="189aZvcjr3OXFhhUsF3z-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="189aZvcjr3OXFhhUsF3z-7" source="189aZvcjr3OXFhhUsF3z-34" target="189aZvcjr3OXFhhUsF3z-47">
           <mxGeometry relative="1" as="geometry" />
