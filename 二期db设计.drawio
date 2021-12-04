@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-04T06:13:44.014Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="vWpbf6Sb8NBM-AhmE35Z" version="15.8.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-04T06:17:17.766Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="eQjExfV7qNr8CqudtTHJ" version="15.8.9" type="github" pages="2">
   <diagram id="_QLf_eMsvZCd--VG2ROC" name="金库-弹出4A金库页">
-    <mxGraphModel dx="1863" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1863" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="6IBJuD0eE3NldxI7ZoUS-0" />
         <mxCell id="6IBJuD0eE3NldxI7ZoUS-1" parent="6IBJuD0eE3NldxI7ZoUS-0" />
@@ -299,7 +299,7 @@
         <mxCell id="Ch-ms4GJbpmnnm7oxetS-11" value="接收金库触发结果接口" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="6IBJuD0eE3NldxI7ZoUS-1">
           <mxGeometry x="370" y="1956" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ch-ms4GJbpmnnm7oxetS-17" value="系统编码&#xa;登录令牌&#xa;登录账号&#xa;操作业务模块编码&#xa;操作URL&#xa;操作菜单/功能编码" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6IBJuD0eE3NldxI7ZoUS-1">
+        <mxCell id="Ch-ms4GJbpmnnm7oxetS-17" value="系统编码&#xa;登录令牌&#xa;登录账号&#xa;操作业务模块编码&#xa;操作URL&#xa;操作菜单/功能编码&#xa;操作菜单/功能名称" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6IBJuD0eE3NldxI7ZoUS-1">
           <mxGeometry x="570" y="1560" width="118" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Ch-ms4GJbpmnnm7oxetS-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6IBJuD0eE3NldxI7ZoUS-1" source="Ch-ms4GJbpmnnm7oxetS-20" target="Ch-ms4GJbpmnnm7oxetS-23">
@@ -308,8 +308,8 @@
         <mxCell id="Ch-ms4GJbpmnnm7oxetS-20" value="状态&#xa;触发ID&#xa;信息描述&#xa;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6IBJuD0eE3NldxI7ZoUS-1">
           <mxGeometry x="600" y="1730" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ch-ms4GJbpmnnm7oxetS-23" value="状态：&#xa;需要触发、&#xa;已触发、&#xa;不需要触发、&#xa;禁止操作" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6IBJuD0eE3NldxI7ZoUS-1">
-          <mxGeometry x="735" y="1668" width="92" height="92" as="geometry" />
+        <mxCell id="Ch-ms4GJbpmnnm7oxetS-23" value="状态：&#xa;需要触发、&#xa;已触发、&#xa;不需要触发、&#xa;禁止操作&#xa;未配置（可以暂不触发）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6IBJuD0eE3NldxI7ZoUS-1">
+          <mxGeometry x="735" y="1668" width="135" height="92" as="geometry" />
         </mxCell>
         <mxCell id="Ch-ms4GJbpmnnm7oxetS-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6IBJuD0eE3NldxI7ZoUS-1" source="Ch-ms4GJbpmnnm7oxetS-25" target="Ch-ms4GJbpmnnm7oxetS-31">
           <mxGeometry relative="1" as="geometry" />
