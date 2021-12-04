@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-04T07:15:20.925Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="K_bVXnXciczFPviaeXnk" version="15.8.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-04T07:25:52.344Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="ir5F0Z-W8CGUN4_VkLqo" version="15.8.9" type="github" pages="2">
   <diagram id="_QLf_eMsvZCd--VG2ROC" name="金库-弹出4A金库页">
     <mxGraphModel dx="1863" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -415,7 +415,7 @@
         <mxCell id="Y0tXLghzDKh9BuN8Jv5B-37" value="1：密码&#xa;2：验证码" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="441" y="484" width="90" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="c8QMgtIahxtR3ATDZTxK-1" value="T_JK_POINT 金库控制点" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+        <mxCell id="c8QMgtIahxtR3ATDZTxK-1" value="T_JK_AUTH 金库授权" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="141" width="180" height="190" as="geometry" />
         </mxCell>
         <mxCell id="c8QMgtIahxtR3ATDZTxK-2" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c8QMgtIahxtR3ATDZTxK-1">
@@ -426,7 +426,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c8QMgtIahxtR3ATDZTxK-4" value="point_id 控制点主键" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="c8QMgtIahxtR3ATDZTxK-2">
+        <mxCell id="c8QMgtIahxtR3ATDZTxK-4" value="auth_id 授权主键" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="c8QMgtIahxtR3ATDZTxK-2">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -439,7 +439,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c8QMgtIahxtR3ATDZTxK-7" value="sensitive_id 敏感词" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="c8QMgtIahxtR3ATDZTxK-5">
+        <mxCell id="c8QMgtIahxtR3ATDZTxK-7" value="point_id 控制点" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="c8QMgtIahxtR3ATDZTxK-5">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -452,7 +452,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c8QMgtIahxtR3ATDZTxK-51" value="scene_id 场景主键" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="c8QMgtIahxtR3ATDZTxK-49">
+        <mxCell id="c8QMgtIahxtR3ATDZTxK-51" value="scene_id 场景" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="c8QMgtIahxtR3ATDZTxK-49">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -489,8 +489,8 @@
             <mxPoint x="450" y="262" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c8QMgtIahxtR3ATDZTxK-26" value="T_JK_SENSITIVE 敏感词" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="20" width="180" height="250" as="geometry" />
+        <mxCell id="c8QMgtIahxtR3ATDZTxK-26" value="T_JK_POINT 控制点表" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="20" width="180" height="280" as="geometry" />
         </mxCell>
         <mxCell id="c8QMgtIahxtR3ATDZTxK-27" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c8QMgtIahxtR3ATDZTxK-26">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -500,7 +500,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c8QMgtIahxtR3ATDZTxK-29" value="sensitive_id 敏感词主键" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="c8QMgtIahxtR3ATDZTxK-27">
+        <mxCell id="c8QMgtIahxtR3ATDZTxK-29" value="point_id 控制点主键" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="c8QMgtIahxtR3ATDZTxK-27">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -513,13 +513,26 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c8QMgtIahxtR3ATDZTxK-32" value="sys_code 系统编码" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="c8QMgtIahxtR3ATDZTxK-30">
+        <mxCell id="c8QMgtIahxtR3ATDZTxK-32" value="point_name 控制点名" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="c8QMgtIahxtR3ATDZTxK-30">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aj23WOSGoMtXplJzS__Q-1" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c8QMgtIahxtR3ATDZTxK-26">
+          <mxGeometry y="90" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aj23WOSGoMtXplJzS__Q-2" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="aj23WOSGoMtXplJzS__Q-1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aj23WOSGoMtXplJzS__Q-3" value="sys_code 系统编码" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="aj23WOSGoMtXplJzS__Q-1">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="c8QMgtIahxtR3ATDZTxK-33" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c8QMgtIahxtR3ATDZTxK-26">
-          <mxGeometry y="90" width="180" height="30" as="geometry" />
+          <mxGeometry y="120" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c8QMgtIahxtR3ATDZTxK-34" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="c8QMgtIahxtR3ATDZTxK-33">
           <mxGeometry width="30" height="30" as="geometry">
@@ -532,7 +545,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="c8QMgtIahxtR3ATDZTxK-36" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c8QMgtIahxtR3ATDZTxK-26">
-          <mxGeometry y="120" width="180" height="30" as="geometry" />
+          <mxGeometry y="150" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c8QMgtIahxtR3ATDZTxK-37" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="c8QMgtIahxtR3ATDZTxK-36">
           <mxGeometry width="30" height="30" as="geometry">
@@ -545,7 +558,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="c8QMgtIahxtR3ATDZTxK-40" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c8QMgtIahxtR3ATDZTxK-26">
-          <mxGeometry y="150" width="180" height="30" as="geometry" />
+          <mxGeometry y="180" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c8QMgtIahxtR3ATDZTxK-41" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="c8QMgtIahxtR3ATDZTxK-40">
           <mxGeometry width="30" height="30" as="geometry">
@@ -558,7 +571,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="c8QMgtIahxtR3ATDZTxK-43" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c8QMgtIahxtR3ATDZTxK-26">
-          <mxGeometry y="180" width="180" height="30" as="geometry" />
+          <mxGeometry y="210" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c8QMgtIahxtR3ATDZTxK-44" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="c8QMgtIahxtR3ATDZTxK-43">
           <mxGeometry width="30" height="30" as="geometry">
@@ -571,7 +584,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="c8QMgtIahxtR3ATDZTxK-46" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c8QMgtIahxtR3ATDZTxK-26">
-          <mxGeometry y="210" width="180" height="30" as="geometry" />
+          <mxGeometry y="240" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c8QMgtIahxtR3ATDZTxK-47" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="c8QMgtIahxtR3ATDZTxK-46">
           <mxGeometry width="30" height="30" as="geometry">
