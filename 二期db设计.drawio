@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-07T02:49:11.831Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="MfW1VllbA82Z18jfhvvB" version="15.8.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-07T05:28:04.704Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="y8tfFJp4cy24QcDkKsiV" version="15.8.9" type="github" pages="2">
   <diagram id="_QLf_eMsvZCd--VG2ROC" name="金库-弹出4A金库页">
-    <mxGraphModel dx="1769" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2221" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="6IBJuD0eE3NldxI7ZoUS-0" />
         <mxCell id="6IBJuD0eE3NldxI7ZoUS-1" parent="6IBJuD0eE3NldxI7ZoUS-0" />
@@ -327,7 +327,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="C-xvJUPkEJIQUC7n7sxM" name="金库表结构">
-    <mxGraphModel dx="1769" dy="1783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2221" dy="1817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -444,7 +444,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Y0tXLghzDKh9BuN8Jv5B-31" value="1:账号触发&#xa;2:控制点触发&#xa;3:黑名单 &#xa;4:白名单 &#xa;多选以,分割" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="240" y="351" width="96" height="90" as="geometry" />
+          <mxGeometry x="230" y="386" width="96" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Y0tXLghzDKh9BuN8Jv5B-32" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Y0tXLghzDKh9BuN8Jv5B-27" target="Y0tXLghzDKh9BuN8Jv5B-37" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -452,10 +452,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Y0tXLghzDKh9BuN8Jv5B-37" value="1：密码&#xa;2：验证码&#xa;多选以,分割" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="320" y="460" width="99" height="56" as="geometry" />
+          <mxGeometry x="295.5" y="490" width="99" height="56" as="geometry" />
         </mxCell>
         <mxCell id="c8QMgtIahxtR3ATDZTxK-1" value="T_JK_AUTH 金库授权" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="220" y="91" width="200" height="220" as="geometry" />
+          <mxGeometry x="220" y="140" width="200" height="220" as="geometry" />
         </mxCell>
         <mxCell id="c8QMgtIahxtR3ATDZTxK-2" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="c8QMgtIahxtR3ATDZTxK-1" vertex="1">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
@@ -655,7 +655,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8EJRl5de1SElEQQZAvPw-10" value="0:永久&#xa;1:选择时间段&#xa;2:每日时间段" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="220" y="500" width="100" height="60" as="geometry" />
+          <mxGeometry x="180" y="525" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8EJRl5de1SElEQQZAvPw-11" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8EJRl5de1SElEQQZAvPw-1" target="8EJRl5de1SElEQQZAvPw-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -735,7 +735,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ftFCYnhwXr8PbbgiCP60-9" value="T_JK_APPROVE_USER 协同组关联人" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="220" y="-104" width="250" height="160" as="geometry" />
+          <mxGeometry x="195" y="-60" width="250" height="160" as="geometry" />
         </mxCell>
         <mxCell id="ftFCYnhwXr8PbbgiCP60-10" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ftFCYnhwXr8PbbgiCP60-9" vertex="1">
           <mxGeometry y="30" width="250" height="30" as="geometry" />
