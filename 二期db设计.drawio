@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-07T05:28:04.704Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="y8tfFJp4cy24QcDkKsiV" version="15.8.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-07T06:18:39.340Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="d-7fFBpwK9tz0EA_pv49" version="15.8.9" type="github" pages="2">
   <diagram id="_QLf_eMsvZCd--VG2ROC" name="金库-弹出4A金库页">
-    <mxGraphModel dx="2221" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2221" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="6IBJuD0eE3NldxI7ZoUS-0" />
         <mxCell id="6IBJuD0eE3NldxI7ZoUS-1" parent="6IBJuD0eE3NldxI7ZoUS-0" />
@@ -327,7 +327,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="C-xvJUPkEJIQUC7n7sxM" name="金库表结构">
-    <mxGraphModel dx="2221" dy="1817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2221" dy="1768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -443,7 +443,7 @@
             <mxPoint x="167" y="316" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y0tXLghzDKh9BuN8Jv5B-31" value="1:账号触发&#xa;2:控制点触发&#xa;3:黑名单 &#xa;4:白名单 &#xa;多选以,分割" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="1" vertex="1">
+        <mxCell id="Y0tXLghzDKh9BuN8Jv5B-31" value="1:账号触发&#xa;2:控制点触发&#xa;3:黑名单 &#xa;4:白名单 &#xa;5:文件下载&#xa;多选以,分割" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="230" y="386" width="96" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Y0tXLghzDKh9BuN8Jv5B-32" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Y0tXLghzDKh9BuN8Jv5B-27" target="Y0tXLghzDKh9BuN8Jv5B-37" edge="1">
