@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-07T08:13:05.922Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="AuKS_nVTzLygMQelrttI" version="15.8.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-07T08:29:03.070Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="ON_7hGS1Hiz8c8R8ziWW" version="15.8.9" type="github" pages="3">
   <diagram id="_QLf_eMsvZCd--VG2ROC" name="金库-弹出4A金库页">
     <mxGraphModel dx="2009" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -327,7 +327,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="金库-自判断策略" id="r9LUJPPaS_5kHSIeur09">
-    <mxGraphModel dx="1182" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1182" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="254mhcVq6Vc8mBWZfcF0-0" />
         <mxCell id="254mhcVq6Vc8mBWZfcF0-1" parent="254mhcVq6Vc8mBWZfcF0-0" />
@@ -396,8 +396,16 @@
         <mxCell id="5IZDRJbTWaKayyNHE6ek-0" value="&lt;span&gt;业务页面，调用本地数据判断是否需要触发金库。&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="254mhcVq6Vc8mBWZfcF0-6">
           <mxGeometry x="70" y="58" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5IZDRJbTWaKayyNHE6ek-5" value="触发" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="254mhcVq6Vc8mBWZfcF0-6" source="5IZDRJbTWaKayyNHE6ek-3" target="254mhcVq6Vc8mBWZfcF0-8">
+        <mxCell id="5IZDRJbTWaKayyNHE6ek-5" value="有策略" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="254mhcVq6Vc8mBWZfcF0-6" source="5IZDRJbTWaKayyNHE6ek-3" target="254mhcVq6Vc8mBWZfcF0-8">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4c-eG59wc6iWuOaLDi1l-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.175;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="254mhcVq6Vc8mBWZfcF0-6" source="5IZDRJbTWaKayyNHE6ek-3" target="254mhcVq6Vc8mBWZfcF0-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4c-eG59wc6iWuOaLDi1l-2" value="无策略" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4c-eG59wc6iWuOaLDi1l-1">
+          <mxGeometry x="-0.0577" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="5IZDRJbTWaKayyNHE6ek-3" value="是否触发策略" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="254mhcVq6Vc8mBWZfcF0-6">
           <mxGeometry x="50" y="173" width="160" height="50" as="geometry" />
